@@ -1,0 +1,45 @@
+.item1 {grid-area: image4;}
+.item7 {grid-area: dice;}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'image4'
+    'dice'
+    ;
+}
+
+body{
+    text-align: center;
+    font-size: 4ch;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+}
+
+input[type="radio"]{
+    margin: 0 50px 0 10px;
+}
+
+.image1{
+    position: relative;
+    top: 25px;
+}
+
+.image2{
+    position: absolute;
+    top: 278px;
+    right: 905px;
+}
+
+.but {
+    margin:auto;
+    background-color: yellow;
+    width: 300px;
+    height: 60px;
+    border-radius:10px;
+}
+
+.or {
+    background-color: rgb(135, 206, 235);
+}
